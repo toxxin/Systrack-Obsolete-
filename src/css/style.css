@@ -1,0 +1,118 @@
+﻿html {
+	height: 500 px; 
+}
+
+body { 
+	height: 100%;
+	margin: 0;
+	padding: 0 
+}
+
+#map {
+	width:100%;
+	height:100%;
+	margin-top:0px;
+	position: absolute;
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	position: absolute;
+}
+
+.device {
+    position: relative;
+    bottom: 0px;
+	margin:0;
+	display: inline-block;
+ /*   left: 100px; */
+}
+
+	#device_light{
+		width:37px;
+		height:37px;
+		position: inherit;
+		float:left;
+		margin:0;
+		display: inline-block;
+		bottom: -2px;
+	}
+
+	#tracker_name{
+		position: inherit;
+		cursor: default;
+		float:left;
+		top:16px;
+		margin:0;
+		display: inline-block;
+		color: #ffffff; 
+	}
+
+	#device_option_button{
+		width:37px;
+		height:37px;
+		position: inherit;
+		float:left;
+		margin:0;
+		display: inline-block;
+		bottom: -2px;
+	}
+
+	#separator{
+		position: inherit;
+		float:left;
+		margin:0;
+		display: inline-block;
+		top:14px;
+	}
+	
+	#period_trackbar{
+		position: absolute;
+		width: 200px;
+	}
+	
+	#period_trackbar_div{
+		background-color: rgb(205, 223, 186);
+		border: 3px solid rgb(202, 233, 217);
+		border-radius: 15px 15px;
+		position: absolute;
+		top: 21%;
+		left: 1%;
+		opacity: 0;
+		width: 208px;
+		height: 23px;
+	}
+		
+#map_bar {
+	position: absolute;
+	float:right;
+	bottom: 80px;
+	left: 95%;
+}
+
+#bottom_bar {
+	position:absolute;
+	margin:0px;
+	bottom: 0px;
+	height:40px;
+	width:100%;
+	background-color:#333333;
+	opacity:0.8;
+}
+
+#project_guide_pic {
+		position:absolute;
+		top: 50%;
+		left: 50%;
+		opacity: 0;
+}
+
+#plus {
+
+}
+
+#minus {
+
+}
